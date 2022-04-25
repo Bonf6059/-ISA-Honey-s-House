@@ -9,7 +9,7 @@
       <texPath>Things/Item/Resource/HoneyComb</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
-    <resourceReadoutPriority>Low</resourceReadoutPriority>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <stackLimit>75</stackLimit>
