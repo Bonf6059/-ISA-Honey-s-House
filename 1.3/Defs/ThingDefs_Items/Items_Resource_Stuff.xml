@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+    <ThingDef ParentName="ResourceBase">
+    <defName>ISA_HoneyComb</defName>
+    <label>honeycomb</label>
+    <description>Honeycomb can be processed into honey and wax.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/HoneyComb</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <resourceReadoutPriority>Low</resourceReadoutPriority>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <stackLimit>75</stackLimit>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>3.2</MarketValue>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <techLevel>Neolitich</techLevel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+  </ThingDef>
+  
+</Defs>
