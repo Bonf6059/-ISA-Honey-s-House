@@ -10,7 +10,7 @@
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
-      <MarketValue>4.5</MarketValue> <!-- Can be used like meat in recipes -->
+      <MarketValue>4.5</MarketValue>
       <Mass>0.045</Mass>
       <MaxHitPoints>60</MaxHitPoints>
       <Flammability>0.2</Flammability>
@@ -27,7 +27,7 @@
     <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
   
-    <ThingDef ParentName="ResourceVerbBase">
+    <ThingDef ParentName="ResourceBase">
     <defName>ISA_Wax</defName>
     <label>wax</label>
     <description>Wax. Useful for building structures and weapons. It is a good fuel for campfires and generators, and can be refined into chemfuel. In a pinch, a piece of wood can be used as a weapon or a leg.</description>
@@ -55,51 +55,9 @@
     <burnableByRecipe>true</burnableByRecipe>
     <healthAffectsPrice>false</healthAffectsPrice>
     <minRewardCount>10</minRewardCount>
-    <stuffProps>
-      <stuffAdjective>wooden</stuffAdjective>
-      <categories>
-        <li>Woody</li>
-      </categories>
-      <commonality>1.00</commonality>
-      <color>(133,97,67)</color>
-      <constructEffect>ConstructWood</constructEffect>
-      <appearance>Planks</appearance>
-      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
-      <statFactors>
-        <MaxHitPoints>0.65</MaxHitPoints>
-        <Beauty>1</Beauty>
-        <Flammability>1</Flammability>
-        <WorkToMake>0.7</WorkToMake>
-        <WorkToBuild>0.7</WorkToBuild>
-        <DoorOpenSpeed>1.2</DoorOpenSpeed>
-      </statFactors>
-      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
-    </stuffProps>
-    <isTechHediff>true</isTechHediff>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>
-    <techHediffsTags>
-      <li>Poor</li>
-    </techHediffsTags>
-    <weaponClasses>
-      <li>Melee</li>
-      <li>MeleeBlunt</li>
-      <li>Neolithic</li>
-    </weaponClasses>
-    <tools>
-      <li>
-        <label>log</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>10</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <allowedArchonexusCount>150</allowedArchonexusCount>
   </ThingDef>
   
