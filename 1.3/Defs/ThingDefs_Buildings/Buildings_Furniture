@@ -14,7 +14,7 @@
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
     </graphicData>
-    <uiIconPath>Things/Building/Misc/Candle_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Misc/Candle/Candle_MenuIcon</uiIconPath>
     <uiIconScale>0.85</uiIconScale>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
